@@ -1,0 +1,21 @@
+{
+  "name": "scaner",
+  "version": "0.0.0",
+  "authors": [
+    "kreker <tonerhps@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-tags-input": "~2.3.0"
+  }
+}

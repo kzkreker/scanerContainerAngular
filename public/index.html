@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="stylesheets/ng-tags-input.css" />
+    <script src="javascripts/angular.min.js" data-semver="1.2.15"></script>
+    <script src="javascripts/ng-tags-input.js"></script>
+    <script src="javascripts/app.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+<tags-input ng-model="tags" sn-array="{{snArray}}"></tags-input>
+<p>Model: {{tags}}</p>
+<p>Sn array {{snArray}}<p>
+</body>
+
+</html>
